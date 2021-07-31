@@ -1,6 +1,6 @@
 <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/blob/main/img/header.png" alt="cabecera">
 
-# ANIMA_voice-assistant
+# ÁNIMA
  Asistente por voz con múltiples opciones - Voice assistant with multiple options
 
 - Contenido/Contents
