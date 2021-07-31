@@ -1,7 +1,7 @@
 <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/blob/main/img/header.png" alt="cabecera">
 
 # ÁNIMA
- Asistente por voz con múltiples opciones - Voice assistant with multiple options
+ Asistente por voz con múltiples funciones - Voice assistant with multiple functions
 
 - Contenido/Contents
      - [COMO-INICIARLO-HOW-TO-START-IT](#COMO-INICIARLO-HOW-TO-START-IT)
