@@ -12,7 +12,8 @@
     [ES]
     - Descarga los archivos de  github y descomprimirlos en una carpeta
     - Abre el archivo index.html de la carpeta principal (En Google Chrome)
-    - Haz click en botón de start y acepta que el navegador pueda captar el sonido de tu micrófono (Si no te escucha haz click en el botón del micrófono)
+    - Haz click en botón de start y acepta que el navegador pueda captar el sonido de tu micrófono (Si no te escucha haz click en el botón del micrófono
+    
     [EN]
     - Download the files from github and unzip them in a folder
     - Open the index.html file from the main folder (In Google Chrome)
