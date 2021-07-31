@@ -1,33 +1,39 @@
-<img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/header.png" alt="cabecera">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ÁNIMA</title>
+    <meta name="description"content=""/>
+    <meta name="author" content="Rodrigo Sendino Sanz" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="icon/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-# ANIMA_voice-assistant
- Asistente por voz con múltiples opciones - Voice assistant with multiple options
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
 
-- Contenido/Contents
-     - [COMO-INICIARLO-HOW-TO-START-IT](#COMO-INICIARLO-HOW-TO-START-IT)
-     - [IMAGENES-IMAGES](#IMAGENES-IMAGES)
-     - [COMANDOS-COMMANDS](#COMANDOS-COMMANDS)
-
-  ## COMO-INICIARLO-HOW-TO-START-IT
-    [ES]
-    - Descarga los archivos de  github y descomprimirlos en una carpeta
-    - Abre el archivo index.html de la carpeta principal (En Google Chrome)
-    - Haz click en botón de start y acepta que el navegador pueda captar el sonido de tu micrófono (Si no te escucha haz click en el botón del micrófono)
-    [EN]
-    - Download the files from github and unzip them in a folder
-    - Open the index.html file from the main folder (In Google Chrome)
-    - Click on the start button and accept that the browser can pick up the sound from your microphone (If it does not hear you, click on the microphone button)
-
-  ## IMAGENES-IMAGES
-
-  <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima1.png">
-  <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima2.png">
-  <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima3.png">
-  <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima4.png">
+    <script
+    src="https://kit.fontawesome.com/895e73d5cd.js"
+    crossorigin="anonymous"></script>
 
 
-  ## COMANDOS-COMMANDS
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 
+  <body>
+    
+    <button type="button" onclick="location.reload()"id="recargar"><i class="fas fa-redo-alt"></i></button>
+    <button type="button" onclick="start()"id="reiniciar"><i class="fas fa-microphone"></i></button>
+
+
+    <ul>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Comandos</a>
+        <div class="dropdown-content">
           <a>okey Ánima</a>
           <a>hey Ánima</a>
           <a>Buenos días Ánima</a>
@@ -142,3 +148,70 @@
           <a>Me puedes ayudar</a>
           <a>Oye</a>
           <a>Estás ahí</a>
+        </div>
+      </li>
+    </ul>
+
+
+
+      <h2 id="text">
+        <img src="" id="img1"/>
+      </h2>
+
+      <iframe id="player" type="text/html" width="640" height="360" style="display: none"
+      src=""
+      frameborder="0" allow="autoplay">
+    </iframe>
+    <a id="enviarcorreo" href="mailto:elcorreoquequieres@correo.com"></a>
+    <form id="form"style="display: none">
+        <h2>FORMULARIO</h2>
+        <div class="form-section">
+            <input type="email" class="form-input" id="email" placeholder="Escriba su email">
+        </div>
+        <div class="form-section">
+            <input type="text" class="form-input"id="asunto" placeholder="Escriba su asunto">
+        </div>
+        <div class="form-section">
+            <textarea class="form-input" id="mensaje" placeholder="Escriba su mensaje"></textarea>
+        </div>
+        <div class="form-section">
+          <p>Edad:
+            <input type="radio" name="edad" value="menor" id="menor"> Menor
+            <input type="radio" name="edad" value="adulto" id="adulto"> Adulto
+          </p>
+        </div>
+        <div class="form-section">
+            <input type="button" class="form-input" id="enviar" value="Enviar">
+        </div>
+        <input type="reset" id="borrarformulario" style="display: none">
+      </form>
+      <!-- all con voz -->
+      <div id="all">
+        <div class="circle"></div>
+      </div>
+      <!-- All2 sin hablar -->
+      <div id="all2" style="display: none">
+        <div class="circle2"></div>
+      </div>
+
+      <div class="container">
+        <p id="par1">Da una palmada despues de hacer click en el start</p>
+        <button type="button" onclick="start()" id="btn">Start</button>
+        <p id="par2">da privilegios a el navegador en la barra del navegador</p>
+      </div>
+
+
+      <div id="particles-js"></div>
+
+          <h2 id="titulo">ÁnimA</h2>
+          <h2 id="titulo2">ÁnimA</h2>
+    <!-- scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <script src="js/annyang.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
