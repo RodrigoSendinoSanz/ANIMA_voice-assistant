@@ -1,4 +1,4 @@
-<img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/header.png" alt="cabecera">
+<img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/blob/main/img/header.png" alt="cabecera">
 
 # ANIMA_voice-assistant
  Asistente por voz con múltiples opciones - Voice assistant with multiple options
@@ -20,7 +20,7 @@
 
   ## IMAGENES-IMAGES
 
-  <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima1.png">
+  <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/blob/main/img/anima1.png">
   <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima2.png">
   <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima3.png">
   <img src="https://github.com/RodrigoSendinoSanz/ANIMA_voice-assistant/img/anima4.png">
