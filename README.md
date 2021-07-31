@@ -13,11 +13,13 @@
     - Descarga los archivos de  github y descomprimirlos en una carpeta
     - Abre el archivo index.html de la carpeta principal (En Google Chrome)
     - Haz click en botón de start y acepta que el navegador pueda captar el sonido de tu micrófono (Si no te escucha haz click en el botón del micrófono
+    - **Recomendado usar cascos**
     
     [EN]
     - Download the files from github and unzip them in a folder
     - Open the index.html file from the main folder (In Google Chrome)
     - Click on the start button and accept that the browser can pick up the sound from your microphone (If it does not hear you, click on the microphone button)
+    - **Recommended to use music headphones**
 
   ## IMAGENES-IMAGES
 
